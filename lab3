@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My First Webpage</title>
+
+    <style>
+        body {
+            background-color: lightblue;
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+
+        h1 {
+            font-family: Georgia, serif;
+            color: darkblue;
+        }
+
+        p {
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+        }
+
+        .special-text {
+            font-family: "Courier New", monospace;
+            color: darkgreen;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Welcome to My Webpage</h1>
+
+    <p>
+        This is my first HTML and CSS webpage.
+        I am learning how to create websites using HTML and CSS.
+    </p>
+
+    <h2>About Me</h2>
+
+    <p>
+        I am ANUJ.
+        I am interested in <b>technology</b> and
+        <i>web development</i>.
+    </p>
+
+    <p class="special-text">
+        Lets talk about interests.
+    </p>
+
+    <h2>My Interests</h2>
+
+    <ul>
+        <li>Web Development</li>
+        <li>Fitness</li>
+        <li>Technology</li>
+        <li>Learning New Things</li>
+    </ul>
+
+    <h2>Lets try google</h2>
+
+    <p>
+        Visit
+        <a href="https://www.google.com" target="_blank">
+            Google
+        </a>
+        to search the web.
+    </p>
+
+    <h2>Nature</h2>
+
+    <p>
+        Nature is beautiful.
+    </p>
+
+    <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Nature_landscape_image.jpg/960px-Nature_landscape_image.jpg"
+        alt="Beautiful nature landscape"
+        width="400"
+    >
+
+</body>
+
+</html>
