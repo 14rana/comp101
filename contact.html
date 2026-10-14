@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Himalayas - Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1 style="color: white; border: none;">The Himalayas</h1>
+        <p>Abode of Snow - the highest mountains on Earth</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="peaks.html">Famous Peaks</a>
+        <a href="visit.html">Plan a Visit</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+        <h1>Contact Us</h1>
+
+        <p class="lead">
+            Questions about the Himalayas or this website? Send us a message below.
+        </p>
+
+        <h2>Project team</h2>
+        <ul>
+            <!-- Project team member -->
+            <li>Anuj</li>
+        </ul>
+
+        <h2>Send a message</h2>
+        <!-- onsubmit runs validateForm(); returning false stops the page reloading -->
+        <form onsubmit="return validateForm()">
+            <label for="name">Your name:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">Your email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+        <!-- validateForm() writes its result here -->
+        <p id="form-message"></p>
+
+        <p><a href="index.html">Back to Home</a></p>
+    </main>
+
+    <footer>
+        <p>The Himalayas - a COMP 101 project | <span id="year"></span></p>
+    </footer>
+
+</body>
+</html>

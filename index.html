@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Himalayas - Home</title>
+    <!-- One shared stylesheet for the whole site -->
+    <link rel="stylesheet" href="style.css">
+    <!-- JavaScript for the fact button and footer year -->
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1 style="color: white; border: none;">The Himalayas</h1>
+        <p>Abode of Snow - the highest mountains on Earth</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="peaks.html">Famous Peaks</a>
+        <a href="visit.html">Plan a Visit</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+        <h1>Welcome to the Himalayas</h1>
+
+        <img src="images/media-generation-himalayas-0-1b666eb8-64de-4990-943f-70d0ce0cb3c7.jpg"
+             alt="Snow-capped Himalayan peaks at sunrise" class="hero-img">
+
+        <p class="lead">
+            The Himalayas are the tallest mountain range in the world, stretching about
+            2,400 kilometres across Asia. Their name comes from Sanskrit and means
+            "abode of snow".
+        </p>
+
+        <p>
+            The range passes through five countries - Bhutan, China, India, Nepal, and
+            Pakistan - and holds all fourteen of the world's peaks above 8,000 metres,
+            including Mount Everest. For centuries these mountains have shaped the
+            climate, rivers, and cultures of South Asia.
+        </p>
+
+        <p class="note">
+            Fun fact: the Himalayas are still growing! The Indian tectonic plate keeps
+            pushing into Asia, lifting the range about 1 centimetre every year.
+        </p>
+
+        <h2>Explore this site</h2>
+        <ul>
+            <li><a href="peaks.html">Famous Peaks</a> - a table of the tallest mountains</li>
+            <li><a href="visit.html">Plan a Visit</a> - best seasons, packing, and treks</li>
+            <li><a href="contact.html">Contact</a> - send us a message</li>
+        </ul>
+
+        <h2>Did you know?</h2>
+        <p id="fact-box">Click the button for a Himalaya fact.</p>
+        <button onclick="showFact()">Show me a fact</button>
+
+        <h2>Learn more</h2>
+        <p>
+            Read the full story on
+            <a href="https://en.wikipedia.org/wiki/Himalayas" target="_blank">Wikipedia - Himalayas</a>.
+        </p>
+    </main>
+
+    <footer>
+        <p>The Himalayas - a COMP 101 project | <span id="year"></span></p>
+    </footer>
+
+</body>
+</html>

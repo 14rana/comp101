@@ -1,0 +1,176 @@
+/* style.css - one stylesheet shared by every page.
+   Keeping all styling in one file gives the site a consistent look. */
+
+/* Page defaults */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* simple, readable font */
+    margin: 0;                                /* remove browser default margin */
+    background-color: #f4f6f8;                /* light grey page background */
+    color: #222;                              /* dark grey text */
+    line-height: 1.6;                         /* comfortable line spacing */
+}
+
+/* Top banner shown on every page */
+header {
+    background-color: #1f3a5f;  /* deep mountain-blue */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation menu */
+nav {
+    background-color: #16304f;  /* slightly darker blue */
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;      /* no underline */
+    margin: 0 15px;             /* space between links */
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline; /* underline only on hover */
+}
+
+/* Main content area */
+main {
+    max-width: 800px;           /* keep lines readable on wide screens */
+    margin: 20px auto;          /* centre the content */
+    padding: 0 20px;
+    background-color: white;
+    border-radius: 8px;         /* slightly rounded corners */
+}
+
+/* Heading styles */
+h1 {
+    color: #1f3a5f;
+    border-bottom: 3px solid #e0a458; /* golden underline accent */
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #2c5f8a;
+    margin-top: 30px;
+}
+
+h3 {
+    color: #444;
+}
+
+/* Paragraph styles */
+p {
+    margin: 12px 0;
+}
+
+p.lead {
+    font-size: 1.2em;           /* bigger intro paragraph */
+    color: #333;
+}
+
+p.note {
+    background-color: #fff8e6;  /* pale yellow highlight box */
+    border-left: 4px solid #e0a458;
+    padding: 10px 15px;
+}
+
+/* Hero image on the home page */
+.hero-img {
+    width: 100%;                /* fill the content width */
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+/* Table on the peaks page */
+table {
+    width: 100%;
+    border-collapse: collapse;  /* single lines between cells */
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #1f3a5f;  /* dark header row */
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;  /* zebra striping for readability */
+}
+
+/* Lists */
+ul, ol {
+    margin: 12px 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Contact form */
+form {
+    margin: 20px 0;
+}
+
+label {
+    display: block;             /* label on its own line */
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;     /* padding stays inside the width */
+}
+
+textarea {
+    height: 120px;
+}
+
+button {
+    background-color: #1f3a5f;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    margin-top: 15px;
+    border-radius: 4px;
+    cursor: pointer;            /* hand cursor on hover */
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #2c5f8a;  /* lighter blue on hover */
+}
+
+/* Message shown after form validation */
+#form-message {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* Footer shown on every page */
+footer {
+    background-color: #1f3a5f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+footer a {
+    color: #e0a458;
+}
